@@ -1,0 +1,5 @@
+pika-abi-bridge (1.0-101pika1) canary; urgency=medium
+
+  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- pika-abi-bridge  Wed, 18 Jan 2023 21:48:14 +0000

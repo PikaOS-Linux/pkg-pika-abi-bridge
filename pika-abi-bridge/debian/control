@@ -1,0 +1,20 @@
+Source: pika-abi-bridge
+Section: admin
+Priority: optional
+Maintainer: ferreo <harderthanfire@gmail.com>
+Standards-Version: 4.6.1
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+
+Package: pika-abi-bridge-qt-abi-bridge
+Architecture: linux-any
+Depends: ${misc:Depends},
+  qtbase-abi-5-15-14,
+  qtwayland-client-abi-5-15-14,
+  qtdeclarative-abi-5-15-13
+Provides: qtbase-abi-5-15-10,
+  qtwayland-client-abi-5-15-10,
+  qtdeclarative-abi-5-15-10
+  qtbase-abi-5-15-13,
+  qtwayland-client-abi-5-15-13,
+Description: QT ABI Bridge for PikaOS builder
