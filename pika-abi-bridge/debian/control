@@ -10,13 +10,14 @@ Package: pika-abi-bridge-qt-abi-bridge
 Architecture: linux-any
 Depends: 
   ${misc:Depends},
-  qtbase-abi-5-15-15,
-  qtwayland-client-abi-5-15-15,
-  qtdeclarative-abi-5-15-15
+  qtbase-abi-5-15-14,
+  qtwayland-client-abi-5-15-13,
+  qtdeclarative-abi-5-15-13
 Provides: 
   qtbase-abi-5-15-10 (= 5.15.10-101pika1),
   qtwayland-client-abi-5-15-10 (= 5.15.10-101pika1),
   qtdeclarative-abi-5-15-10 (= 5.15.10-101pika1),
   qtbase-abi-5-15-15 (= 5.15.15-101pika1),
+  kwayland5-data (= 4:5.115.0-3),
 #  qtwayland-client-abi-5-15-15 (= 5.15.15-101pika1),
 Description: QT ABI Bridge for PikaOS builder
