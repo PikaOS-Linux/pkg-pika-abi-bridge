@@ -8,11 +8,8 @@ Rules-Requires-Root: no
 
 Package: pika-abi-bridge-qt-abi-bridge
 Architecture: linux-any
-Depends: 
+Depends:
   ${misc:Depends},
-  qtbase-abi-5-15-14,
-  qtwayland-client-abi-5-15-13,
-  qtdeclarative-abi-5-15-13
 Provides: 
   qtbase-abi-5-15-10 (= 5.15.10-101pika1),
   qtwayland-client-abi-5-15-10 (= 5.15.10-101pika1),
