@@ -15,7 +15,7 @@ Provides:
   qtwayland-client-abi-5-15-10 (= 5.15.10-101pika1),
   qtdeclarative-abi-5-15-10 (= 5.15.10-101pika1),
   qtbase-abi-5-15-13 (= 5.15.13-101pika1),
-  qtbase-abi-5-15-15 (= 5.15.15-101pika1),
+# qtbase-abi-5-15-15 (= 5.15.15-101pika1),
   kwayland5-data (= 4:5.115.0-5+b33),
   libqt5svg5(= 5.6.0~beta),
 #  qtwayland-client-abi-5-15-15 (= 5.15.15-101pika1),
